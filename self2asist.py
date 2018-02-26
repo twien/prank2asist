@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 acil = PRANKBOTS.LINE() 
-acil.login(token="token akun utama/selfbot")
+")acil.login(token="EqAYMvQolDDB3Xs48pea.nw/oU69KHV9HKsBewrbiMG.d52F7GpRC4ABxADE60I/u9AaKh9nlK1fezcLp8RYTj0=")
 acil.loginResult()
 
 pb1 = PRANKBOTS.LINE() 
