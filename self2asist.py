@@ -128,10 +128,10 @@ wait = {
     'contact':False,
     'autoJoin':False,
     'autoCancel':{"on":True,"members":1},
-    'leaveRoom':True
+    'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"""❂••••AUTO ADD BY CHANNEL PRANKBOTS••••❂\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ\n❂•••JANGAN LUPA DI SUBCRABE YA••••❂""",
+    'message':"❂••••AUTO ADD BY CHANNEL PRANKBOTS••••❂\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ\n❂•••JANGAN LUPA DI SUBCRABE YA••••❂""",
     "lang":"JP",
     "comment1":"❂••••AUTO ADD BY CHANNEL PRANKBOTS••••❂\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ\n❂•••JANGAN LUPA DI SUBCRABE YA••••❂",
     "comment":"Thanks For Add Me",
@@ -151,14 +151,14 @@ wait = {
     "linkprotect":False,
     "copy":True,
     "copy2":"target",
-    "target":{}
+    "target":{},
     }
 
 wait2 = {
     'readPoint':{},
     'readMember':{},
     'setTime':{},
-    'ROM':{}
+    'ROM':{},
     }
 
 setTime = {}
