@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 acil = PRANKBOTS.LINE() 
-")acil.login(token="EqAYMvQolDDB3Xs48pea.nw/oU69KHV9HKsBewrbiMG.d52F7GpRC4ABxADE60I/u9AaKh9nlK1fezcLp8RYTj0=")
+acil.login(token="EqAYMvQolDDB3Xs48pea.nw/oU69KHV9HKsBewrbiMG.d52F7GpRC4ABxADE60I/u9AaKh9nlK1fezcLp8RYTj0=")
 acil.loginResult()
 
 pb1 = PRANKBOTS.LINE() 
-pb1.login(token="token asist 1")
+pb1.login(token="EqQEEbP44RhFUpRFCqA6.0XVK+XVXyoRq/QwNKDiBPG.MEj+A01uRx2+t+6ivXSm9Yixy0VQTHZYqtBE4jRGsuc=")
 pb1.loginResult()
 
 pb2 = PRANKBOTS.LINE() 
-pb2.login(token="token asist 2")
+pb2.login(token="EqaIGJ73RayzPah6MeQ4.wOXLxGH7ZAW9/nX9yvdDPa.FhoTndEpoC6eT8yn7r9dAzR4T3q3UCvQQ4vEB6El8O0=")
 pb2.loginResult()
 
 
@@ -122,13 +122,13 @@ mid = acil.getProfile().mid
 pb1mid = pb1.getProfile().mid
 pb2mid = pb2.getProfile().mid
 Bots=[mid,pb1mid,pb2mid]
-admsa = "mid akun utama/sb"
+admsa = "u356f8ebbaf6486ff619126c45910489a"
 
 wait = {
     'contact':False,
     'autoJoin':False,
     'autoCancel':{"on":True,"members":1},
-    'leaveRoom':True,
+    'leaveRoom':True
     'timeline':False,
     'autoAdd':True,
     'message':"""❂••••AUTO ADD BY CHANNEL PRANKBOTS••••❂\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ\n❂•••JANGAN LUPA DI SUBCRABE YA••••❂""",
@@ -217,7 +217,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 acil.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
